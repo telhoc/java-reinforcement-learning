@@ -97,5 +97,13 @@ public class ActorCriticAgent implements Serializable {
 
         currentState = newState;
     }
+    
+    public int getCurrentState() {
+    	return currentState;
+    }
+    
+    public void setCurrentState(int newState) {
+    	currentState = newState;
+    }
 
 }
